@@ -1,5 +1,5 @@
 homepage: "https://stuifbergen.com"
-documentation: "https://stuifbergen.com/"
+documentation: "https://stuifbergen.com/2021/07/slack-ping-send-slack-messages-via-gtm-server-side/"
 versions:
   - sha: 4f10b6e3cb65f5edd4579ad35622d1ab5380a615
     changeNotes: Release prepared for inclusion in Gallery
