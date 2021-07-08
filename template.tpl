@@ -1,4 +1,4 @@
-﻿___TERMS_OF_SERVICE___
+___TERMS_OF_SERVICE___
 
 By creating or modifying this file you agree to Google Tag Manager's Community
 Template Gallery Developer Terms of Service available at
@@ -13,8 +13,8 @@ ___INFO___
   "id": "cvt_temp_public_id",
   "version": 1,
   "securityGroups": [],
-  "displayName": "Slack Ping",
   "categories": [ "UTILITY" ],
+  "displayName": "Slack Ping",
   "brand": {
     "id": "brand_dummy",
     "displayName": "Stuifbergen.com",
@@ -168,8 +168,7 @@ const sendHttpRequest = require('sendHttpRequest');
 
 
 const url = data.webhookUrl;
-var message = data.text; //https://hooks.slack.com/services/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
-
+var message = data.text;
 
   var attachment = {
       "fallback": data.text
@@ -204,6 +203,7 @@ var message = data.text; //https://hooks.slack.com/services/T01K9QPT9A8/B027ZQT1
   payload.attachments = [ attachment ];
 
   const postBody = JSON.stringify(payload);
+  log(postBody);
   // Sends a POST request to slack
   sendHttpRequest(url, (statusCode, headers, body) => {
     if (statusCode == 200) {
@@ -303,6 +303,5 @@ scenarios: []
 
 ___NOTES___
 
-Created on 7/8/2021, 10:39:47 AM
-
+Created on 7/8/2021, 11:42:00 AM
 
