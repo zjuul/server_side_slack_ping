@@ -5,7 +5,7 @@ This Server Side tag, when triggered, will send a Slack message via the Slack we
 ## Use cases
 - get notified when someone makes a purchase
 - monitor errors and 404s
-- <anything you can think of>
+- anything else you can think of
 
 ## Config Options
   
