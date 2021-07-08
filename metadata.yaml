@@ -1,0 +1,5 @@
+homepage: "https://stuifbergen.com"
+documentation: "https://stuifbergen.com/"
+versions:
+  - sha: 4f10b6e3cb65f5edd4579ad35622d1ab5380a615
+    changeNotes: Release prepared for inclusion in Gallery
